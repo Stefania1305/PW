@@ -1,0 +1,5 @@
+const educationList = document.querySelectorAll("#education li");
+
+const educationArray = Array.from(educationList).map(li => li.textContent);
+
+console.log("Education array:", educationArray);
